@@ -1,2 +1,14 @@
-# double_pendubulm_SAC
 Reinforcement Learning project - Solving the underactuated double_pendulum swing-up with reinforcement learning
+
+Stefano Trenti's submission for the Reinforcement Learning project.
+
+Files submitted:
+
+-RL2023_24_project_report_Stefano_Trenti  : PDF report
+-Train_SAC_LQR : file that trains the SAC model
+-Evaluate_SAC_LQR : file that loads the model weights and evaluates the agent's performance
+-Evaluate_Baseline : file that evaluates the baseline controller's performance
+-Custom_Env : file that contains the custom gym environment for the training process
+-Compute_ROA : file that computes the ROA for the LQR controller
+-SAC_agent : Folder that stores the weights of the trained SAC agent
+-lqr_roa : Folder that contains the saved parameters for the LQR ROA
